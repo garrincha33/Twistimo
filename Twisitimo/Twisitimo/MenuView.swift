@@ -11,7 +11,6 @@ struct MenuView: View {
     var body: some View {
         VStack {
             Spacer()
-            
             VStack(spacing: 16) {
                 Text("Richy - 28% Complete")
                     .font(.caption)
@@ -25,9 +24,6 @@ struct MenuView: View {
                     .frame(width: 150, height: 24)
                     .background(Color.black.opacity(0.1))
                     .cornerRadius(12)
-                
-                
-                
                 MenuRow(title: "Account", icon: "gear")
                 MenuRow(title: "Billing", icon: "creditcard")
                 MenuRow(title: "Sign Out", icon: "person.crop.circle")
